@@ -1,7 +1,4 @@
-# Operating-System
-
-CSE 316 : OPERATING SYSTEM
-CA3 Assignment Submission
+# CSE 316 : OPERATING SYSTEM || CA3 Assignment Submission
 
 11615895
 K1641 B48
