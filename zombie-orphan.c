@@ -1,3 +1,5 @@
+//Write a C program to create two zombie processes and two orphan processes using system calls.
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<sys/types.h>
