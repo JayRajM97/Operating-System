@@ -31,7 +31,23 @@ for(int i = 0; i < 2 ; i++)
 }
 break;
 
-
+case 2:
+// Orphan Process
+for(int i = 0; i < 2; i++)
+{
+	int pid_t2 = fork();
+	if(pid_t2 > 0)
+	{
+		printf("\nParent Process");
+	}
+	else if(pid_t2 == 0)
+	{
+		sleep(5);
+		printf("\nChild Process");
+		printf("Parent Process ID is %d \n",getppid());
+	}
+}
+break;
 }//switchends
 
 }//while ends
